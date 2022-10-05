@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	margin: 0px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	overflow: hidden;
+	
+	
+}
+body{
+	position: fixed;
+	margin: 0
+}
+.todo{
+	background-image: url("img/group_2.png");
+	background-position:center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	height: 100vh;
+	
+}
+body img {
+	width: 110vw;
+	bottom: 0px;
+	height: 100vh;
+}
+
+@font-face {
+  font-family: 'basier';
+  font-style: normal;
+  font-weight: 100;
+  src: url("fonts/basiercircle-regular.otf");
+		
+		}
+
+
+@font-face {
+  font-family: 'basier';
+  font-style: normal;
+  font-weight: 600;
+  src: url("fonts/BasierCircle-Bold.ttf");
+		
+		}
+h1{
+	font-family: basier ;
+	font-weight: 600;
+	position: absolute;
+	font-size: 100px;
+	color: white;
+	top: 300px;
+	margin-left: 30px;
+}
+.button{
+	position: absolute;
+	bottom: 10px;
+	height: 100px;
+	width: 100vw;
+	text-align-last: center;
+}
+.button img{
+	width: 30%;
+	height: 52%;
+	border-radius: 30px;
+	padding: 10px;
+	margin: auto!important;
+	
+}
+		
