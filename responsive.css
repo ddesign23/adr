@@ -1,22 +1,23 @@
 @charset "UTF-8";
 /* CSS Document */
 
-@media (min-width: 270px) and (max-width: 920px) {
+@media (min-width: 270px) and (max-width: 920px) and (min-height: 200px) and (max-width:1020px){
 	body{
 		overflow: hidden;
 	}
 	h1{
-		font-size: 60px;
+		font-size: 54px;
 		top: 44%;
 		margin-left: 50px;
+		text-align: center;
 		color: white;
-		position: absolute;
+		position: fixed;
 	}
 	
 .button{
-	position: absolute;
-	bottom: 80px;
-	height: 100px;
+	position: fixed;
+	bottom: 13%;
+	height: 110px;
 	width: 100vw;
 }
 .button img{

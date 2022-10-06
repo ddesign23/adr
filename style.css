@@ -51,7 +51,9 @@ h1{
 	font-size: 100px;
 	color: white;
 	top: 300px;
-	margin-left: 30px;
+	margin: auto;
+	text-align: center;
+	
 }
 .button{
 	position: absolute;
