@@ -5,7 +5,6 @@
 	margin: 0px;
 	overflow-x: hidden;
 	overflow-y: hidden;
-	background-color: black; 
 	box-sizing: border-box;
 	
 	
@@ -75,6 +74,9 @@ h1{
 	text-decoration: none;
 	margin: auto!important;
 	
+}
+.alls{
+	background-color: black;
 }
 
 .tit{
