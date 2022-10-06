@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-@media (min-width: 270px) and (max-width: 920px) and (min-height: 200px) and (max-width:1020px){
+@media (min-width: 270px) and (max-width: 580px){
 	
 	
 .todo{
@@ -9,6 +9,44 @@
 	
 .todo video{
 	opacity: 0.59;
+	
+	
+}
+	h1{
+	font-size: 48px;
+	font-family: 'basier';
+	
+	
+}
+	
+	
+}
+@media (min-width: 580px) and (max-width: 1220px){
+	
+	
+.todo{
+}
+	
+.todo video{
+	opacity: 0.59;
+	
+	
+}
+	h1{
+	font-size: 88px;
+	font-family: 'basier';
+	
+	
+}
+	.sta buttom a{
+	font-size: 24px;
+	width: 440px;
+	height: 55px;
+	padding: 10px;
+	line-height:55px;
+	border-radius: 50px;
+	
+	
 	
 	
 }
