@@ -19,7 +19,7 @@
 
 
 @font-face {
-  font-family: 'Helvetica';
+  font-family: 'basier';
   font-style: normal;
   font-weight: 600;
   src: url('../fonts/basier/BasierCircle-Bold.ttf') format('truetype');
@@ -57,7 +57,7 @@ h1{
 }
 .sta buttom a{
 	font-size: 18px;
-	font-family: 'Helvetica';
+	font-family: 'basier';
 	font-weight: 100;
 	text-align: center!important;
 	position: absolute;
