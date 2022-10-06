@@ -77,3 +77,34 @@ h1{
 	
 	
 }
+#canvas{
+	margin: auto;
+	text-align: center;
+	width: 80vw;
+	position: relative ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+	
+.gir{
+	top: 70%;
+	width:300px;
+	height:35px;
+	color: white;
+	font-size: 24px;
+	background-color: black;
+	font-family: 'basier';
+	font-weight: 100;
+	padding: 10px;
+	border-radius: 30px;
+	
+	margin: auto;
+	text-align: center;
+	position: relative ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 999;
+} 
