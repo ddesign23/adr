@@ -5,6 +5,8 @@
 	margin: 0px;
 	overflow-x: hidden;
 	overflow-y: hidden;
+	background-color: black; 
+	box-sizing: border-box;
 	
 	
 }
@@ -73,38 +75,103 @@ h1{
 	text-decoration: none;
 	margin: auto!important;
 	
-	
-	
-	
-}
-#canvas{
-	margin: auto;
-	text-align: center;
-	width: 80vw;
-	position: relative ;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 
-	
-.gir{
-	top: 70%;
-	width:300px;
-	height:35px;
-	color: white;
-	font-size: 24px;
-	background-color: black;
+.tit{
 	font-family: 'basier';
-	font-weight: 100;
-	padding: 10px;
-	border-radius: 30px;
-	
+	font-size: 30px;
+	color:white;
+	font-weight: 600;
 	margin: auto;
+	position: relative;
 	text-align: center;
-	position: relative ;
+	top: 20%;
+	
+	
+	
+}
+
+.stit{
+	font-family: 'basier';
+	font-size: 20px;
+	color:#515151;
+	font-weight: 100;
+	margin: auto;
+	position: relative;
+	text-align: center;
+	top: 22%;
+	
+	
+	
+}
+.select {
+  width: 70%;
+	border-radius: 30px;
+	margin:0;
+	align-items: center;
+	position: relative;
+	top: 30%;
+	margin-left: 15%;
+	
+	
+	
+	
+	
+	
+}
+#standard-select{
+  border: none;
+  width: 100%;
+	height: 60px;
+  font-family: 'basier';
+  font-size: 21px;
+  cursor: inherit;
+  line-height: inherit;
+	margin: auto;
+	position: relative;
+	text-align: center;
+	
+	
+}
+
+
+.sta2 buttom{
+	
 	display: flex;
 	justify-content: center;
-	align-items: center;
-	z-index: 999;
-} 
+    align-items: center;
+}
+
+
+.sta2 buttom a{
+	font-size: 18px;
+	font-family: 'basier';
+	font-weight: 100;
+	text-align: center!important;
+	position: absolute;
+	color: white;
+	z-index: 10;
+	width: 60%;
+	top: 80%;
+	background-color: #D8550F;
+	height: 6%;
+	padding: 10px;
+	line-height:35px;
+	border-radius: 30px;
+	text-decoration: none;
+	margin: auto!important;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
