@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media (min-width: 270px) and (max-width: 920px) and (min-height: 200px) and (max-width:1020px){
+	
+	
+.todo{
+}
+	
+.todo video{
+	opacity: 0.59;
+	
+	
+}
+	
+	
+}

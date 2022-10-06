@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	margin: 0px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	
+	
+}
+
+@font-face {
+  font-family: 'basier';
+  font-style: normal;
+  font-weight: 100;
+  src: url("fonts/basiercircle-regular.otf");
+		
+		}
+
+
+@font-face {
+  font-family: 'basier';
+  font-style: normal;
+  font-weight: 600;
+  src: url("fonts/BasierCircle-Bold.ttf");
+		
+		}
+.todo{
+	width: 100vw;
+	height: 100vh;
+	background-color: black;
+}
+.todo video{
+	max-width: 120vw;
+	min-width: 100vw;
+	opacity: 0.59;
+}
+h1{
+	font-size: 48px;
+	font-family: 'basier';
+	font-weight: 600;
+	text-align: center;
+	position: absolute;
+	color: white;
+	margin: auto;
+	z-index: 10;
+	width: 100vw;
+	top: 40%;
+	
+	
+}
+.sta buttom{
+	
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+.sta buttom a{
+	font-size: 18px;
+	font-family: 'basier';
+	font-weight: 100;
+	text-align: center!important;
+	position: absolute;
+	color: black;
+	z-index: 10;
+	width: 240px;
+	top: 80%;
+	background-color: #fff;
+	height: 35px;
+	padding: 5px;
+	line-height:35px;
+	border-radius: 30px;
+	text-decoration: none;
+	margin: auto!important;
+	
+	
+	
+	
+}
