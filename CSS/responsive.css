@@ -28,23 +28,20 @@
 }
 	
 .tit{
-	font-size: 48px;
-	top: 34%;
+	font-size: 40px;
 	
 	
 	
 }
 
 .stit{
-	font-size: 32px;
-	top: 38%;
+	font-size: 28px;
 	
 	
 	
 }
 .select {
 	border-radius: 90px;
-	top:45%;
 	
 }
 #standard-select{
@@ -61,6 +58,14 @@
 	
 }
 	
+.fd{
+	width: 100vw;
+	height: 800px;
+	padding: 30px;
+	margin-top: 30%;
+	
+	
+}
 	
 }
 @media (min-width: 580px) and (max-width: 1220px){
@@ -91,14 +96,12 @@
 
 .tit{
 	font-size: 56px;
-	top: 40%;
 	
 	
 	
 }
 .stit{
 	font-size: 36px;
-	top: 43%;
 	
 	
 	
@@ -106,7 +109,6 @@
 	
 .select {
 	border-radius: 90px;
-	top:48%;
 	
 }
 	.sta buttom a{
@@ -128,6 +130,14 @@
 		border-radius: 90px;
 	
 	
+	
+	
+}
+.fd{
+	width: 100vw;
+	height: 800px;
+	padding: 30px;
+	margin-top: 50%;
 	
 	
 }
