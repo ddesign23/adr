@@ -19,6 +19,47 @@
 	
 }
 	
+.sta buttom a{
+	font-size: 21px;
+	width: 60%;
+	top: 80%;
+	height: 60px;
+	
+}
+	
+.tit{
+	font-size: 40px;
+	top: 26%;
+	
+	
+	
+}
+
+.stit{
+	font-size: 26px;
+	top: 28%;
+	
+	
+	
+}
+.select {
+	border-radius: 90px;
+	
+}
+#standard-select{
+	height: 70px;
+  font-size: 24px;
+	
+	
+}
+.sta2 buttom a{
+	font-size: 21px;
+	width: 60%;
+	top: 80%;
+	height: 60px;
+	
+}
+	
 	
 }
 @media (min-width: 580px) and (max-width: 1220px){
@@ -33,18 +74,57 @@
 	
 }
 	h1{
-	font-size: 88px;
+	font-size: 108px;
 	font-family: 'basier';
 	
 	
 }
+	
+#standard-select{
+	height: 95px;
+  font-size: 36px;
+	
+	
+}
+	
+
+.tit{
+	font-size: 56px;
+	top: 28%;
+	
+	
+	
+}
+.stit{
+	font-size: 36px;
+	top: 30%;
+	
+	
+	
+}
+	
+.select {
+	border-radius: 90px;
+	top: 40%;
+	
+}
 	.sta buttom a{
 	font-size: 36px;
-	width: 50%;
-	height: 85px;
-	padding: 15px;
-	line-height:78px;
-	border-radius: 60px;
+	width: 60%;
+	height: 95px;
+	padding: 30px;
+		border-radius: 90px;
+	
+	
+	
+	
+}
+	.sta2 buttom a{
+	font-size: 36px;
+	width: 60%;
+	height: 95px;
+	padding: 30px;
+		border-radius: 90px;
 	
 	
 	

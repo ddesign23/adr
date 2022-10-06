@@ -67,8 +67,8 @@ h1{
 	width: 240px;
 	top: 80%;
 	background-color: #fff;
-	height: 35px;
-	padding: 5px;
+	height: 60px;
+	padding: 10px;
 	line-height:35px;
 	border-radius: 30px;
 	text-decoration: none;
@@ -87,7 +87,7 @@ h1{
 	margin: auto;
 	position: relative;
 	text-align: center;
-	top: 20%;
+	top: 26%;
 	
 	
 	
@@ -101,7 +101,7 @@ h1{
 	margin: auto;
 	position: relative;
 	text-align: center;
-	top: 22%;
+	top: 28%;
 	
 	
 	
@@ -156,7 +156,7 @@ h1{
 	width: 60%;
 	top: 80%;
 	background-color: #D8550F;
-	height: 6%;
+	height: 60px;
 	padding: 10px;
 	line-height:35px;
 	border-radius: 30px;
