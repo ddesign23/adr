@@ -2,30 +2,16 @@
 /* CSS Document */
 
 @media (min-width: 270px) and (max-width: 920px) and (min-height: 200px) and (max-width:1020px){
-	body{
-		overflow: hidden;
-	}
-	h1{
-		font-size: 54px;
-		top: 44%;
-		margin-left: 50px;
-		text-align: center;
-		color: white;
-		position: fixed;
-	}
 	
-.button{
-	position: fixed;
-	bottom: 13%;
-	height: 110px;
-	width: 100vw;
+	
+.todo{
 }
-.button img{
-	width:70%;
-	height: 47%;
-	border-radius: 30px;
-	padding: 10px;
-	margin: auto!important; 
+	
+.todo video{
+	opacity: 0.59;
+	
+	
 }
+	
 	
 }

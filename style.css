@@ -5,27 +5,8 @@
 	margin: 0px;
 	overflow-x: hidden;
 	overflow-y: hidden;
-	overflow: hidden;
 	
 	
-}
-body{
-	position: fixed;
-	margin: 0
-}
-.todo{
-	background-image: url("img/group_2.png");
-	background-position:center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	
-	height: 100vh;
-	
-}
-body img {
-	width: 110vw;
-	bottom: 0px;
-	height: 100vh;
 }
 
 @font-face {
@@ -44,30 +25,55 @@ body img {
   src: url("fonts/BasierCircle-Bold.ttf");
 		
 		}
+.todo{
+	width: 100vw;
+	height: 100vh;
+	background-color: black;
+}
+.todo video{
+	max-width: 120vw;
+	min-width: 100vw;
+	opacity: 0.59;
+}
 h1{
-	font-family: basier ;
+	font-size: 48px;
+	font-family: 'basier';
 	font-weight: 600;
-	position: absolute;
-	font-size: 100px;
-	color: white;
-	top: 300px;
-	margin: auto;
 	text-align: center;
+	position: absolute;
+	color: white;
+	margin: auto;
+	z-index: 10;
+	width: 100vw;
+	top: 40%;
+	
 	
 }
-.button{
-	position: absolute;
-	bottom: 10px;
-	height: 100px;
-	width: 100vw;
-	text-align-last: center;
+.sta buttom{
+	
+	display: flex;
+	justify-content: center;
+    align-items: center;
 }
-.button img{
-	width: 30%;
-	height: 52%;
+.sta buttom a{
+	font-size: 18px;
+	font-family: 'basier';
+	font-weight: 100;
+	text-align: center!important;
+	position: absolute;
+	color: black;
+	z-index: 10;
+	width: 240px;
+	top: 80%;
+	background-color: #fff;
+	height: 35px;
+	padding: 5px;
+	line-height:35px;
 	border-radius: 30px;
-	padding: 10px;
+	text-decoration: none;
 	margin: auto!important;
 	
+	
+	
+	
 }
-		
