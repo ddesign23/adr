@@ -78,6 +78,10 @@ h1{
 .alls{
 	background-color: black;
 }
+
+.alls-2{
+	background-color: #D8550F;
+}
 .fd{
 	width: 100vw;
 	height: 800px;
@@ -179,6 +183,18 @@ h1{
 	
 	
 }
+
+.ps-2{
+	margin:auto;
+	text-align: center;
+	position: relative;
+	background-color: #FFB690;
+	width: 300px;
+	border-radius: 200px;
+	margin-top: 40vh;
+	
+	
+}
 lottie-player{
 	margin: auto;
 	width: 300px; height: 300px;
@@ -203,9 +219,37 @@ h3{
 	margin:auto;
 	text-align: center;
 	width: 70vw;
-	line-height:30px;
+	line-height:40px;
 	margin-top:30px;
 	color: #545454;
+	
+	
+}
+
+h4{
+	font-family: 'basier';
+	font-size: 40px;
+	font-weight: 600;
+	margin:auto;
+	text-align: center;
+	width: 70vw;
+	line-height: 40px;
+	margin-top:30px;
+	color: white;
+	
+	
+}
+
+h5{
+	font-family: 'basier';
+	font-size: 21px;
+	font-weight: 100;
+	margin:auto;
+	text-align: center;
+	width: 70vw;
+	line-height:40px;
+	margin-top:30px;
+	color: rgba(255,255,255,0.50);
 	
 	
 }
@@ -239,6 +283,33 @@ h3{
 .glo{
 	height: 70vh;
 	margin: auto;
+}
+
+.sta4 buttom{
+	
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+
+.sta4 buttom a{
+	font-size: 30px;
+	font-family: 'basier';
+	font-weight: 100;
+	text-align: center!important;
+	position: absolute;
+	color: white;
+	z-index: 10;
+	width: 60%;
+	bottom: 5%;
+	background-color: #000000;
+	height: 80px;
+	padding: 17px;
+	border-radius: 90px;
+	text-decoration: none;
+	margin: auto!important;
+	
 }
 
 
