@@ -65,7 +65,7 @@ h1{
 	color: black;
 	z-index: 10;
 	width: 240px;
-	top: 80%;
+	bottom: 10%;
 	background-color: #fff;
 	height: 60px;
 	padding: 10px;
@@ -159,10 +159,10 @@ h1{
 	color: white;
 	z-index: 10;
 	width: 60%;
-	top: 80%;
+	bottom: 10%;
 	background-color: #D8550F;
 	height: 80px;
-	padding: 21px;
+	padding:17px;
 	border-radius: 90px;
 	text-decoration: none;
 	margin: auto!important;
@@ -227,7 +227,7 @@ h3{
 	color: white;
 	z-index: 10;
 	width: 60%;
-	top: 80%;
+	bottom: 10%;
 	background-color: #D8550F;
 	height: 80px;
 	padding: 17px;
