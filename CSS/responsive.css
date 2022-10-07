@@ -2,7 +2,7 @@
 /* CSS Document */
 
 @media (min-width: 270px) and (max-width: 580px){
-	
+
 	
 .todo{
 }
@@ -58,6 +58,14 @@
 	
 }
 	
+.sta3 buttom a{
+	font-size: 21px;
+	width: 60%;
+	top: 87%;
+	height: 60px;
+	
+}
+	
 .fd{
 	width: 100vw;
 	height: 800px;
@@ -66,26 +74,38 @@
 	
 	
 }
-	.wrapper{
-		z-index: 1111;
-		
-  grid-template-columns: 120px 120px;
-		width: 100vw;
-		height: 89vh;
-		margin-top: 20px;
-		
-  grid-gap: 10px;
-	}
 	
-.box {
-height:120px;
-	width: 120px;
+.ps{
+	width: 300px;
+	height: 300px;
+	margin-top: 80px;
+	
+	
 }
-.wrapper img{
-	width: 100%;
-	height: 100%;
+lottie-player{
+	margin-top: 17px;
+}
+h2{
+	
+	font-size: 36px;
+	width: 70vw;
+	line-height: 39px;
+	margin-top:30px;
+	
+	
 }
 
+h3{
+	font-size: 24px;
+	line-height:26px;
+	margin-top:20px;
+	
+	
+}
+	
+.glo{
+	height: 50vh;
+}
 
 	
 }
@@ -154,6 +174,18 @@ height:120px;
 	
 	
 }
+	
+	.sta3 buttom a{
+	font-size: 36px;
+	width: 60%;
+	height: 95px;
+	padding: 20px;
+		border-radius: 90px;
+	
+	
+	
+	
+}
 .fd{
 	width: 100vw;
 	height: 800px;
@@ -162,26 +194,40 @@ height:120px;
 	
 	
 }
-	.wrapper{
-		z-index: 1111;
-		
-  grid-template-columns: 190px 190px;
-		width: 100vw;
-		height: 100vh;
-		margin-top: 30px;
-		margin-bottom: 30px;
-		
-  grid-gap: 10px;
-	}
 	
-.box {
-height:190px;
-	width: 190px;
+.ps{
+	width: 400px;
+	height: 400px;
+	margin-top: 120px;
+	
+	
 }
-.wrapper img{
-	width: 100%;
-	height: 100%;
+lottie-player{
+	margin-top: 57px;
 }
+h2{
+	
+	font-size: 56px;
+	width: 70vw;
+	line-height: 58px;
+	margin-top:50px;
+	
+	
+}
+
+h3{
+	font-size: 32px;
+	line-height:35px;
+	margin-top:40px;
+	
+	
+}
+	
+.glo{
+	height: 70vh;
+}
+
+
 	
 	
 }
