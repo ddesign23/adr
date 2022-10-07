@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-@media (min-width: 270px) and (max-width: 580px){
+@media (min-width: 270px) and (max-width: 680px){
 
 	
 .todo{
@@ -76,14 +76,17 @@
 }
 	
 .ps{
-	width: 300px;
-	height: 300px;
-	margin-top: 80px;
+	width: 70vw;
+	height: 70vw;
+	margin-top: 140px;
+	border-radius: 1080px;
 	
 	
 }
 lottie-player{
 	margin-top: 17px;
+	width: 60vw;
+	height: 60vw;
 }
 h2{
 	
@@ -104,12 +107,12 @@ h3{
 }
 	
 .glo{
-	height: 50vh;
+	height: 40vh;
 }
 
 	
 }
-@media (min-width: 580px) and (max-width: 1220px){
+@media (min-width: 680px) and (max-width: 1120px){
 	
 	
 .todo{
@@ -196,35 +199,38 @@ h3{
 }
 	
 .ps{
-	width: 400px;
-	height: 400px;
-	margin-top: 120px;
+	width: 70vw;
+	height: 70vw;
+	margin-top: 320px;
+	border-radius: 1080px;
 	
 	
 }
 lottie-player{
-	margin-top: 57px;
+	margin-top: 27px;
+	width: 60vw;
+	height: 60vw;
 }
 h2{
 	
-	font-size: 56px;
+	font-size: 76px;
 	width: 70vw;
 	line-height: 58px;
-	margin-top:50px;
+	margin-top:90px;
 	
 	
 }
 
 h3{
-	font-size: 32px;
+	font-size: 42px;
 	line-height:35px;
-	margin-top:40px;
+	margin-top:70px;
 	
 	
 }
 	
 .glo{
-	height: 70vh;
+	height: 50vh;
 }
 
 

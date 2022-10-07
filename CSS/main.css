@@ -181,6 +181,7 @@ h1{
 }
 lottie-player{
 	margin: auto;
+	width: 300px; height: 300px;
 }
 h2{
 	font-family: 'basier';
