@@ -78,7 +78,7 @@
 .ps{
 	width: 70vw;
 	height: 70vw;
-	margin-top: 140px;
+	margin-top: 30vh!important;
 	border-radius: 1080px;
 	
 	
@@ -112,7 +112,7 @@ h3{
 
 	
 }
-@media (min-width: 680px) and (max-width: 1120px){
+@media (min-width: 680px) and (max-width: 1220px){
 	
 	
 .todo{
@@ -201,7 +201,7 @@ h3{
 .ps{
 	width: 70vw;
 	height: 70vw;
-	margin-top: 320px;
+	margin-top: 24vh!important;
 	border-radius: 1080px;
 	
 	
