@@ -36,6 +36,35 @@
 	min-width: 100vw;
 	opacity: 0.89;
 }
+@keyframes zoom{
+	0%{
+		transform: scale(-2);
+	filter: blur(40px);
+		opacity: 0.59
+	}
+	100%{
+		transform: scale(1);
+	}
+}
+@keyframes appear{
+	0%{
+		transform: translateY(300px);
+	}
+	
+	100%{
+		transform: translateY(0px)
+	}
+}
+
+@keyframes opa{
+	0%{
+		opacity: 0.0;
+	}
+	
+	100%{
+		opacity: 1.0;
+	}
+}
 h1{
 	font-size: 48px;
 	font-family: 'basier';
@@ -47,7 +76,9 @@ h1{
 	z-index: 10;
 	width: 100vw;
 	top: 40%;
-	
+	animation-name: zoom;
+	animation-duration: 2s;
+	animation-play-state: running;
 	
 }
 .sta buttom{
@@ -73,7 +104,9 @@ h1{
 	border-radius: 30px;
 	text-decoration: none;
 	margin: auto!important;
-	
+	animation-name: appear;
+	animation-duration: 2s;
+	animation-play-state: running;
 }
 .alls{
 	background-color: black;
@@ -123,6 +156,9 @@ h1{
 	position: relative;
 	margin-left: 15%;
 	margin-top: 30px;
+	animation-name: opa;
+	animation-duration: 3s;
+	animation-play-state: running;
 	
 	
 	
@@ -170,6 +206,9 @@ h1{
 	border-radius: 90px;
 	text-decoration: none;
 	margin: auto!important;
+	animation-name: appear;
+	animation-duration: 2s;
+	animation-play-state: running;
 	
 }
 .ps{
@@ -179,7 +218,7 @@ h1{
 	background-color: #F2F1F5;
 	width: 300px;
 	border-radius: 200px;
-	margin-top: 40vh;
+	margin-top: 35vh;
 	
 	
 }
@@ -208,6 +247,9 @@ h2{
 	width: 70vw;
 	line-height: 40px;
 	margin-top:30px;
+	animation-name: opa;
+	animation-duration: 2s;
+	animation-play-state: running;
 	
 	
 }
@@ -222,6 +264,9 @@ h3{
 	line-height:40px;
 	margin-top:30px;
 	color: #545454;
+	animation-name: opa;
+	animation-duration: 2.3s;
+	animation-play-state: running;
 	
 	
 }
@@ -236,6 +281,9 @@ h4{
 	line-height: 40px;
 	margin-top:30px;
 	color: white;
+	animation-name: opa;
+	animation-duration: 2s;
+	animation-play-state: running;
 	
 	
 }
@@ -251,6 +299,9 @@ h5{
 	margin-top:30px;
 	color: rgba(255,255,255,0.50);
 	
+	animation-name: opa;
+	animation-duration: 2.3s;
+	animation-play-state: running;
 	
 }
 
@@ -278,6 +329,9 @@ h5{
 	border-radius: 90px;
 	text-decoration: none;
 	margin: auto!important;
+	animation-name: appear;
+	animation-duration: 2s;
+	animation-play-state: running;
 	
 }
 .glo{
@@ -309,9 +363,37 @@ h5{
 	border-radius: 90px;
 	text-decoration: none;
 	margin: auto!important;
+	animation-name: appear;
+	animation-duration: 2s;
+	animation-play-state: running;
 	
 }
-
+.alla h6{
+	font-size: 52px;
+	font-family: 'basier';
+	font-weight: 600;
+	text-align: left;
+	margin-left: 80px!important;
+	position: relative;
+	color: black;
+	margin: auto;
+	width: 100vw;
+	margin-top: 10%;
+	
+}
+.cards{
+	width: 100vw;
+	margin: auto;
+	
+}
+.elem{
+	width: 70vw;
+	margin: auto;
+	background-color: #F2F1F5;
+	position:relative;
+	top: 400px;
+	
+}
 
 
 
