@@ -456,9 +456,6 @@ h5{
   color: rgba(255, 255, 255, 0.9);
 }
 
-.card__link:hover::after {
-  width: 100%;
-}
 
 .card__exit {
   grid-row: 1/2;
