@@ -1,4 +1,3 @@
-www.hbpocoyo.com
 $ dig WWW.hbpocoyo.COM +nostats +nocomments +nocmd
     > ;WWW.hbpocoyo.COM.                    IN      A
     > WWW.hbpocoyo.COM.             3592    IN      CNAME   ddesign23.github.io.
